@@ -137,11 +137,82 @@
 
 
 
-///----------------------------------------------------------------------------------------------------------
+// misol if18
+
+// let n = 9999;
+// let a;
+// let b;
+// let c;
+// let d;
+// let u=0;
 
 
 
+// if (n>=1000 && n<=9999) {
+//     a=Math.floor(n/1000%10);
+//     b=Math.floor(n/100%10);
+//     c=Math.floor(n/10%10);
+//     d=n%10;
+//     if (a%2==0) {
+        
+//     }else{
+//         u+=a;
+//     }
+//     if (b%2==0) {
+        
+//     }else{
+//         u+=b;
+//     }
+//     if (c%2==0) {
+        
+//     }else{
+//         u+=c;
+//     }
+//      if (d%2==0) {
+        
+//     }else{
+//         u+=d;
+//     }
+//     console.log(u);
+// }
+// if (n>=100 && n<=999) {
+//     b=Math.floor(n/100%10);
+//     c=Math.floor(n/10%10);
+//     d=n%10;
 
+//     if (b%2==0) {
+        
+//     }else{
+//         u+=b;
+//     }
+//     if (c%2==0) {
+        
+//     }else{
+//         u+=c;
+//     }
+//      if (d%2==0) {
+        
+//     }else{
+//         u+=d;
+//     }
+//     console.log(u);
+// }
+// if (n>=10 && n<=99) {
+//     c=Math.floor(n/10%10);
+//     d=n%10;
+
+//     if (c%2==0) {
+        
+//     }else{
+//         u+=c;
+//     }
+//      if (d%2==0) {
+        
+//     }else{
+//         u+=d;
+//     }
+//     console.log(u);
+// }
 
 
 // misol if18
@@ -354,3 +425,18 @@
 //   console.log(j);
 // }
 
+
+
+//misol for38
+
+let n = 5;
+let s = 0;
+
+for (let i = 1; i <= n; i++) {
+  let k = 1;
+  for (let j = n; j >= i; j--) {
+      k*=i
+  }
+  s+=k
+}
+console.log(s);
